@@ -1,4 +1,4 @@
-package com.test.ftwon;
+package com.test.ftwon.collection;
 
 import java.text.DateFormat;
 import java.util.Date;

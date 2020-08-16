@@ -1,4 +1,4 @@
-package com.test.ftwon;
+package com.test.ftwon.collection;
 
 import com.alibaba.fastjson.JSON;
 import com.guigu.se.j2se.reflect.Person;

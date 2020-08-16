@@ -1,4 +1,4 @@
-package com.test.ftwon;
+package com.test.ftwon.collection;
 
 import org.junit.Test;
 
