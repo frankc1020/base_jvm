@@ -4,7 +4,7 @@ package com.guigu.designpattern.sevenprinciple.inversion.improve;
  * @author admin
  * @title: DependecyInversion
  * @projectName base_java
- * @description: TODO
+ * @description: 依赖倒转原则
  * @date 2020/7/30 08:43
  */
 public class DependecyInversion {
