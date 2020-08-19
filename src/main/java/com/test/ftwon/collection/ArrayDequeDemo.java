@@ -1,5 +1,7 @@
 package com.test.ftwon.collection;
 
+import java.util.PriorityQueue;
+
 /**
  * @author admin
  * @title: ArrayDequeDemo
@@ -32,6 +34,8 @@ public class ArrayDequeDemo {
 
         System.out.println(Integer.toBinaryString(6));
         System.out.println(Integer.toBinaryString(7));
+
+        PriorityQueue priorityQueue = new PriorityQueue();
 
 
 
