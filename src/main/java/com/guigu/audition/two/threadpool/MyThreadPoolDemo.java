@@ -10,7 +10,7 @@ public class MyThreadPoolDemo {
     public static void threadPoolInit(){
         //接口类  工具类
         //Array Arrays
-        //Collection,Collections
+        //collection,Collections
         //Executor,Executors
 
 //        ExecutorService threadpool = Executors.newFixedThreadPool(5);//一池5个处理线程
