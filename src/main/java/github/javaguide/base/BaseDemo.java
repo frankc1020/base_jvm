@@ -4,6 +4,7 @@ import org.junit.Test;
 
 import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
+import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -53,5 +54,29 @@ public class BaseDemo {
         y.setName(temp);
         System.out.println("x:" + x.getName());
         System.out.println("y:" + y.getName());
+    }
+
+    /**
+     * 浮点数测试
+     */
+    @Test
+    public void test(){
+        float a = 1.0f - 0.9f;
+        float b = 0.9f - 0.8f;
+        System.out.println(a);// 0.100000024
+        System.out.println(b);// 0.099999964
+        System.out.println(a == b);// false
+
+        BigDecimal a1 = new BigDecimal("1.0");
+        BigDecimal b1= new BigDecimal("0.9");
+        BigDecimal c = new BigDecimal("0.8");
+        BigDecimal x = a1.subtract(b1);// 0.1
+        BigDecimal y = b1.subtract(c);// 0.1
+        System.out.println("a1:" + a1);
+        System.out.println("b1:" + b1);
+        System.out.println("c:" + c);
+        System.out.println("x:" + x);
+        System.out.println("y:" + y);
+        System.out.println(x.equals(y));// true
     }
 }
