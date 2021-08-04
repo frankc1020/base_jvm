@@ -1,5 +1,7 @@
 package com.test.ftwon.collection;
 
+import org.junit.Assert;
+
 import java.text.DateFormat;
 import java.util.Date;
 
@@ -34,13 +36,48 @@ public class Test {
 
 
 
-        Date d = new Date();
-        DateFormat df = DateFormat.getDateInstance();
-        System.out.println(df.format(d));
-        d.setTime(60*60*24 + d.getTime());
-        System.out.println(df.format(d));
-        
+//        Date d = new Date();
+//        DateFormat df = DateFormat.getDateInstance();
+//        System.out.println(df.format(d));
+//        d.setTime(60*60*24 + d.getTime());
+//        System.out.println(df.format(d));
+//        P p = new P();
+//        P c = new C();
+//        System.out.println();
+        /*int i=9;
+        switch(i){
+            default:
+                System.out.println("d");
+            case 0:
+                System.out.println("0");break;
+            case 1:
+                System.out.println("1");
+            case 2:
+                System.out.println("2");
+        }*/
+
+        Boolean b = null;
+        System.out.println(b);
+
+        Assert.assertNull(b);
+        Assert.assertTrue(b);
+
     }
 
 
+
 }
+
+
+class P{
+    public static String getName(){
+        return "Parent";
+    }
+}
+
+class C extends P{
+    public static String getName(){
+        return "Child";
+    }
+}
+
