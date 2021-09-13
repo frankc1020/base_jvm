@@ -4,6 +4,8 @@ import org.junit.Assert;
 
 import java.text.DateFormat;
 import java.util.Date;
+import java.util.HashMap;
+import java.util.Map;
 
 /**
  * @author admin
@@ -56,11 +58,15 @@ public class Test {
                 System.out.println("2");
         }*/
 
-        Boolean b = null;
-        System.out.println(b);
+//        Boolean b = null;
+//        System.out.println(b);
+//
+//        Assert.assertNull(b);
+//        Assert.assertTrue(b);
 
-        Assert.assertNull(b);
-        Assert.assertTrue(b);
+        Map<String,Object> map = new HashMap<>();
+        map.put("province_code","ZZZZ");
+        System.out.println(map.get("actStatus"));
 
     }
 
