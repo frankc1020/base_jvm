@@ -1,6 +1,7 @@
 package com.guigu.se.j2se.step;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * 递归与迭代

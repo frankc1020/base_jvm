@@ -1,6 +1,7 @@
 package com.guigu.se.j2se.obj.poly;
 
-import org.junit.Test;
+
+import org.junit.jupiter.api.Test;
 
 /**
  * @author admin

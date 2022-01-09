@@ -1,7 +1,7 @@
 package com.guigu.se.j2se.io;
 
 import com.guigu.se.j2se.reflect.Person;
-import org.junit.Test;
+import org.junit.jupiter.api.Test;
 
 import java.io.*;
 

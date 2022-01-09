@@ -1,7 +1,7 @@
 package com.test.ftwon.collection;
 
-import com.alibaba.fastjson.JSON;
 import com.guigu.se.j2se.reflect.Person;
+import com.util.JsonUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -30,7 +30,7 @@ public class ListTest {
 
     public  void toList(){
          List<Person>  personList = this.personList;
-        System.out.println(JSON.toJSON(personList));
+        System.out.println(JsonUtils.toJSONString(personList));
 
     }
 

@@ -1,6 +1,5 @@
 package com.test.ftwon.collection;
 
-import org.junit.Test;
 
 /**
  * @author admin
@@ -11,7 +10,7 @@ import org.junit.Test;
  */
 public class SETest {
 
-    @Test
+
     public void roundTest(){
 //        System.out.println(Math.round(-11.6));
 //        System.out.println(Math.round(-11.4));

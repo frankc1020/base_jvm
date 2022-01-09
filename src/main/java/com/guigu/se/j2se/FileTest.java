@@ -1,12 +1,13 @@
 package com.guigu.se.j2se;
 
 import com.guigu.se.j2se.reflect.Person;
+import org.junit.jupiter.api.Test;
 
 import java.math.BigInteger;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class Test {
+public class FileTest {
     public static void main(String[] args) {
         int i = 1;
         i = i++;//i=1
@@ -25,7 +26,7 @@ public class Test {
 //        System.out.println(j);
 //        System.out.println(k);
     }
-    @org.junit.Test
+    @Test
     public  void strEqualTest(){
         String str1 = "hello";
         String str2 = new String("hello");
@@ -39,7 +40,7 @@ public class Test {
      * trim()方法过滤空格
      * 如果不过滤空格，那么开头结尾就是空格开头
      */
-    @org.junit.Test
+    @Test
     public void strTest(){
 
         String str = "    helloworld      ".trim();
@@ -51,7 +52,7 @@ public class Test {
         System.out.println(str1.startsWith(" ")) ;
         System.out.println(str1.endsWith(" ")) ;
     }
-    @org.junit.Test
+    @Test
     public void lambdaTest(){
         Runnable r1 = new Runnable() {
             @Override
@@ -66,7 +67,7 @@ public class Test {
         new Thread(r2).start();
 
     }
-    @org.junit.Test
+    @Test
     public void seTest(){
         /*System.out.println(10 / 3) ;
         // 整型在计算前会先向 float 转型
@@ -89,7 +90,7 @@ public class Test {
     /**
      * 基本运算之位运算
      */
-    @org.junit.Test
+    @Test
     public void baseTest(){
         int x = 45 ;
         int y = 10 ;
@@ -101,7 +102,7 @@ public class Test {
         System.out.println(x<<1) ;//移位操作
         System.out.println(x) ;
     }
-    @org.junit.Test
+    @Test
     public void StrTest(){
         /*StringBuffer sb = new StringBuffer();
         sb.append("Hello World!!!!");
@@ -112,14 +113,14 @@ public class Test {
         System.out.println("总共可以使用的内存: "+run.totalMemory());
         System.out.println("取得最大可用的内存: "+run.maxMemory());
     }
-    @org.junit.Test
+    @Test
     public void DateTest(){
         SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss.SSS");
         Date date = new Date();
         String str = sdf.format(date);
         System.out.println("格式化后的日期:" + str);
     }
-    @org.junit.Test
+    @Test
     public void  shortTest(){
         try {
             short s1  = 1;
@@ -134,7 +135,7 @@ public class Test {
 
     }
 
-    @org.junit.Test
+    @Test
     public void strReTest(){
         try {
             Person p = new Person();
