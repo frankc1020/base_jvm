@@ -1,4 +1,4 @@
-package com.guigu.designpattern.designmodel.factorymode.jdk.source;
+package com.guigu.designpattern.designmodel.jdk.source;
 
 import java.util.Calendar;
 
